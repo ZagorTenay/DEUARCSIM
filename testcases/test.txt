@@ -1,0 +1,10 @@
+ORG C 2 %comment2
+LD R0,INPR %comment
+LD OUTR,#2
+ADD R2,R0,R1
+ST R2,#1
+HLT
+ORG D 3
+A: DEC 8 
+S: HEX 5
+END

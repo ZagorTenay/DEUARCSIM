@@ -1,0 +1,15 @@
+ORG C 10
+LD R0,@A        %Load the number A
+LD R1,@RES
+ADD R2,R0,R1      %Transfer Number2 from input register to R1
+JMP 18       %Call subroutine SUB
+TSF R1,INPR     %Store result to RES
+HLT
+SUB: NOT R1            %1's complement of Register1
+INC R1            %Increment Register1 to find 2's complement
+ADD R0,R2,R1    %operate R0+(-R1), then store to R2
+RET                %Return to main program
+ORG D 3
+A: HEX 14
+RES: BIN 0010
+END
