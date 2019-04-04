@@ -20,3 +20,8 @@ The input files (asm or basm file) include assembly (symbolic) codes. The assemb
 The format of a line is as follow:
 >[label]: instruction [%comment]
 
+![Screenshot2](https://github.com/ZagorTenay/DEUARCSIM/blob/master/ss/s1.JPG)
+
+![Screenshot2](https://github.com/ZagorTenay/DEUARCSIM/blob/master/ss/s2.JPG)
+
+![Screenshot2](https://github.com/ZagorTenay/DEUARCSIM/blob/master/ss/s3.JPG)
