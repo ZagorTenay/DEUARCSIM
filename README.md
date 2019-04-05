@@ -18,7 +18,8 @@ The input files (asm or basm file) include assembly (symbolic) codes. The assemb
 3. The comment field may be empty or it may include a comment after a sharp sign (%).
 
 The format of a line is as follow:
->[label]: instruction [%comment]
+
+    [label]: instruction [%comment]
 
 ![Screenshot2](https://github.com/ZagorTenay/DEUARCSIM/blob/master/ss/s1.JPG)
 
